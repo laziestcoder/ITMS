@@ -1,0 +1,132 @@
+*{
+	margin: 0px; 
+	padding: 0px; 
+	outline: 0px;
+}
+body{
+	margin:auto;
+	width: 1000px;
+	height: 650px;
+	font-size: 14px; 
+	line-height:18px;
+	color:#000; 
+	border: 1px; 
+	border-color: black; 
+	border-style: double;
+	background: beige;
+
+}
+.width{
+	
+	border: 1px; 
+	border-color: black; 
+	border-style: solid;
+	overflow: auto;
+}
+.header{
+	height: 7%;  
+}
+.header h1{
+	padding-top: 2%;
+	text-align: center; 
+	font-size: 25px;
+}
+.navigation{
+}
+.navigation li {
+	padding: 5px;
+	display: inline-block;
+	text-align: center;
+}
+.container{
+	height: 80%;
+	padding:5px;	
+}
+.container h1{
+	text-align: center;
+}
+.maincontainer{
+	background: wheat;
+	padding: 0px 0px 0px 0px;
+	height: 93%;
+	float: left;
+	width: 49.70%;
+}
+.showRouteDetails{
+	background: wheat;
+	padding: 0px 0px 0px 0px;
+	height: 93%;
+	overflow: auto;
+}
+.maincontainer h2{	
+}
+.routePickpoint{
+	padding: 5px;
+}
+.routePickpoint h2{
+	text-align: center;
+}
+.routePickpoint ul{
+	
+}
+.input-box{
+
+}
+.searchresult {
+	/*background: #C3C3C3;*/
+	margin: 0px 0px 0px 25px;
+	padding: 4px 4px 4px 4px;
+}
+.searchresult ul{
+	margin: 0px;
+	padding: 5px; 
+	list-style: none;
+
+}
+.searchresult ul li:hover{
+	color: green;
+	cursor:pointer;
+	font-weight: bold;
+	font-size: 18px;
+}
+.searchresult ss:hover{
+	color: green;
+	cursor:pointer;
+	font-weight: bold;
+	font-size: 18px;
+}
+.sidebar{
+	background: aliceblue;
+	padding: 0px 0px 0px 0px;
+	height: 93%;
+	float: right;
+	width: 49.70%;
+}
+
+.sidebar h2{
+	padding: 5px;
+	text-align: center;
+}
+.footer{
+	height: auto;
+	padding: 5px;
+	text-align: center;
+	height: 4.5%;
+}
+.error{
+	color: #FF0000;
+	padding:5px;
+	font-size: 20px;
+	font-weight:bold;
+}
+.success{
+	color: #1AA162;
+	padding:5px;
+	font-size: 20px;
+	font-weight:bold;
+}
+.show{
+	height: 85%;
+	/*width: 90%;*/
+	overflow: auto;
+}
